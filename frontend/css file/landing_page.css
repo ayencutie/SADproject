@@ -92,16 +92,16 @@ nav ul li .login-btn:hover {
   overflow: hidden;
 }
 
-/* green glass overlay over the image */
+
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
 
-  /* combine dark + green tint */
+
   background: linear-gradient(
-    rgba(0, 0, 0, 0.35),   /* dark layer */
-    rgba(0, 153, 51, 0.25) /* green tint */
+    rgba(0, 0, 0, 0.35),   
+    rgba(0, 153, 51, 0.25)
   );
 
   backdrop-filter: blur(6px) saturate(120%);
@@ -114,8 +114,8 @@ nav ul li .login-btn:hover {
 .overlay {
   position: relative;
   z-index: 2;
-  /* dati: top: 50%; transform: translateY(-50%); */
-  top: 35%; /* mas mataas — adjust mo 30% / 25% kung gusto mo pa tumaas */
+ 
+  top: 35%; 
   left: 100px;
   transform: translateY(-50%);
   width: 550px;
@@ -131,7 +131,7 @@ nav ul li .login-btn:hover {
 
 .hero-text h2 {
   font-size: 60px;
-  color: #009900; /* darker green for good contrast */
+  color: #009900; 
   line-height: 1.1;
 }
 
