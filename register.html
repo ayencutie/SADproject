@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="log in.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://i.ibb.co/zVbCpfct/167565708-10159274632132790-1386372340681598199-n-removebg-preview.png" alt="Health Center Logo">
+    </div>
+
+    <h2>Create an Account</h2>
+
+    <form action="#" method="post">
+
+      <!-- ✅ Name Row -->
+      <div class="row">
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Middle Name">
+      </div>
+
+      <!-- ✅ Address (full width) -->
+      <input type="text" placeholder="Address" required>
+
+      <!-- ✅ Birthdate / Age / Phone Number -->
+      <div class="row">
+        <input type="date" placeholder="Birthdate" required>
+        <input type="number" placeholder="Age" required min="0">
+        <input type="tel" placeholder="Phone Number" required pattern="[0-9]{11}" title="Enter 11-digit number">
+      </div>
+
+      <!-- ✅ Username / Password -->
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+
+      <button type="submit">Create Account</button>
+
+      <p>Already have an account? <a href="log in form.html">Log In</a></p>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
